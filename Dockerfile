@@ -1,6 +1,6 @@
 FROM openjdk:24-oracle
 
-ONBUILD COPY ./app /app
+COPY ./app /app
 WORKDIR /app
 
 EXPOSE 25565
